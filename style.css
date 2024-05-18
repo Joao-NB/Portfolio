@@ -12,7 +12,7 @@
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -20,8 +20,8 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     line-height: 20px;
     transition: 0.3s;
@@ -148,7 +148,7 @@ header nav.menu-desktop ul li{
 
 .menu-mobile .btn-fechar i{
     color: aqua;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .menu-mobile nav ul{
@@ -157,7 +157,7 @@ header nav.menu-desktop ul li{
 
 .menu-mobile nav ul li a{
     color: #fff;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 300;
     padding: 18px 8%;
     display: block;
@@ -513,8 +513,13 @@ footer .line-footer p a{
     }
     
     /* MENU MOBILE */
-
     .btn-abrir-menu i{
         display: block;
+    }
+
+    /* BTNTOTOP */
+    #backToTopBtn {
+        width: 90px;
+        height: 90px;
     }
 }
