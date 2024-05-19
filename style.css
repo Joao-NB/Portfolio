@@ -447,16 +447,26 @@ section.formulario{
 
 @media screen and (max-width: 1020px){
     /* CLASSES GERAIS */
+    
+    section.topo-do-site{
+        padding: 20px;
+    }
+
+    section.topo-do-site h1{
+        text-align: left; 
+        font-size: 35px;
+    }
+
     h2.titulos{
-        font-size: 50px;
-        line-height: 33px;
+        font-size: 40px;
+        line-height: 41px;
     }
 
     .flex{
         flex-direction: column;
     }
 
-    .topo-do-site .flex{
+    .topo-do-site .flex{ 
         flex-direction: column-reverse;
     }
 
@@ -493,9 +503,14 @@ section.formulario{
     }
 
     .sobre .txt-sobre h2{
+        margin-bottom: 30px;
         font-size: 34px;
         line-height: 35px;
         text-align: center;
+    }
+
+    .sobre .txt-sobre p{
+        line-height: 25px;
     }
 
     .btn-social{
@@ -521,17 +536,27 @@ section.formulario{
         gap: 60px;
     }    
 
-    /* RODAPÉ */
-    footer .flex{
-        flex-direction: column;
-        gap: 30px;
-    }
+    /* FALE COMIGO */
     
-    footer .line-footer{
-        text-align: center;
+    section.formulario{
+        padding: 20px;
+    }
+
+    section.formulario h2{
+
+        font-size: 40px;
     }
     
     /* MENU MOBILE */
+
+    .menu-mobile .btn-fechar{
+        padding:19px;
+    }
+
+    .menu-mobile nav ul li a{
+        font-size: 30px;
+        text-align: top;
+    }
 
     .btn-abrir-menu i{
         display: block;
