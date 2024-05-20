@@ -69,6 +69,10 @@ body::-webkit-scrollbar {
     display: flex;
 }
 
+.efeito-titulos, .efeito-especialidades1, .efeito-especialidades2, .efeito-especialidades3, .efeito-img-sobre, .efeito-txt-sobre, .efeito-img-port1, .efeito-img-port2, .efeito-img-port3{
+    visibility: hidden;
+}
+
 .btn-contato{
     display: flex;
     justify-content: end;
