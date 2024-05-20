@@ -3,27 +3,27 @@ window.revelar = ScrollReveal ({reset:true})
 // TITULOS H2
 revelar.reveal('.efeito-titulos' ,
 {
-    duration: 2000,
+    duration: 800,
     distance: '90px'
 }) 
 
 // BOXS-ESPECIALIDADES
 revelar.reveal('.efeito-especialidades1' ,
 {
-    duration: 2000,
+    duration: 800,
     distance: '90px',
 })
 
 revelar.reveal('.efeito-especialidades2' ,
 {
-    duration: 2000,
+    duration: 800,
     distance: '90px',
     delay: 400
 })
 
 revelar.reveal('.efeito-especialidades3' ,
 {
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 900
 })
@@ -49,7 +49,7 @@ revelar.reveal('.efeito-txt-sobre' ,
 
 revelar.reveal('.efeito-img-port1' ,
 {
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 400,
     origin: 'bottom'
@@ -57,7 +57,7 @@ revelar.reveal('.efeito-img-port1' ,
 
 revelar.reveal('.efeito-img-port2' ,
 {
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 900,
     origin: 'bottom'
@@ -65,7 +65,7 @@ revelar.reveal('.efeito-img-port2' ,
 
 revelar.reveal('.efeito-img-port3' ,
 {
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 1400,
     origin: 'bottom'
