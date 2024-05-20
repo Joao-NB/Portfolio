@@ -480,15 +480,15 @@ section.formulario{
     /* CLASSES GERAIS */
 
     body{
-        padding: 0 7%;
+        padding: 0 3%;
+    }
+    
+    header{
+        padding: 5%;
     }
 
     .interface{
         margin: 0;
-    }
-
-    section.topo-do-site{
-        padding: 20px;
     }
 
     section.topo-do-site h1{
@@ -515,22 +515,23 @@ section.formulario{
     }
 
     header .logo{
-        margin-right: 40%;
+        margin-right: 70%;
     }
 
     /* TOPO DO SITE */
 
-    .topo-do-site h1{
-        font-size: 30px;
+    section.topo-do-site h1{
+        font-size: 300%;
     }
 
     /* ESTILO DAS ESPECIALIDADE */
     section.especialidades{
-        padding: 0 6%;
+        padding: 20% 10%;
     }
     
     section.especialidades h2{
-        font-size: 32px;
+        text-align: center;
+        font-size: 230%;
     }
 
     /* ESTILO DE SOBRE*/
@@ -547,7 +548,15 @@ section.formulario{
 
     .sobre .txt-sobre p{
         line-height: 25px;
-        font-size: 12px;
+        font-size: 100%;
+    }
+
+    .sobre .txt-sobre a{
+        font-size: 112%;
+    }
+
+    .sobre .txt-sobre .links{
+        margin-top: 10%;
     }
 
     .btn-social{
@@ -576,7 +585,7 @@ section.formulario{
     /* FALE COMIGO */
     
     body section.formulario{
-        padding: 20px;
+        padding: 50% 10%;
     }
 
     section.formulario h2{
@@ -586,15 +595,15 @@ section.formulario{
     /* MENU MOBILE */
 
     .menu-mobile nav{
-        margin-right: 30px;
+        margin-right: -2%;
     }
 
     .menu-mobile .btn-fechar{
-        padding:19px;
+        padding: 4% 5%;
     }
 
     .menu-mobile nav ul li a{
-        font-size: 20px;
+        font-size: 140%;
         text-align: top;
     }
 
@@ -605,7 +614,7 @@ section.formulario{
 
     /* SCROLL */
     #backToTopBtn{
-        margin-right: 10%;
+        margin-right: -3%;
     }
 }
 
