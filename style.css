@@ -160,7 +160,8 @@ header > .interface{
 }
 
 header a {
-    color: #fffbfb;
+    color: #fffbfbc6;
+    font-weight: 200;
     text-decoration: none;
     display: inline-block;
     position: relative; 
