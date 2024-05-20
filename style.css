@@ -476,16 +476,15 @@ section.formulario{
     color: #fff;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1020px){
     /* CLASSES GERAIS */
 
     body{
-        margin: 0;
-        padding: 0 9%;
+        padding: 0 7%;
     }
 
-    header .logo{   
-        padding-right: 20px;
+    .interface{
+        margin: 0;
     }
 
     section.topo-do-site{
@@ -515,26 +514,19 @@ section.formulario{
         display: none;
     }
 
-    /* TOPO DO SITE */
-    section.topo-do-site .flex{
-        gap: 40px;
+    header .logo{
+        margin-right: 40%;
     }
 
-    section.topo-do-site{
-        padding: 40px 8%;
-    }
+    /* TOPO DO SITE */
 
     .topo-do-site h1{
         font-size: 30px;
     }
 
-    .topo-do-site .img-topo-site img{
-        width: 100%;
-    }
-
     /* ESTILO DAS ESPECIALIDADE */
     section.especialidades{
-        padding: 40px 8%;
+        padding: 0 6%;
     }
     
     section.especialidades h2{
@@ -543,7 +535,7 @@ section.formulario{
 
     /* ESTILO DE SOBRE*/
      section.sobre{
-        padding: 80px 8%;
+        padding: 35% 11%;
     }
 
     .sobre .txt-sobre h2{
@@ -608,12 +600,12 @@ section.formulario{
 
     .btn-abrir-menu i{
         display: block;
-        margin-left: 20px;
+        align-items: end;
     }
 
     /* SCROLL */
     #backToTopBtn{
-        margin-right: 15px;
+        margin-right: 10%;
     }
 }
 
