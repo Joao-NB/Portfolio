@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
   
 /* ESTILO CA CABEÇALHO */
 header{
-    padding: 40px 10%;
+    padding: 35px 10%;
     display: flex;
 }
 
