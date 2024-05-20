@@ -10,6 +10,26 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+    height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-track {
+    background: #73727230; /* Cor de fundo do trilho da scrollbar */
+    border-radius: 10px; /* Bordas arredondadas do trilho */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007bff5f; /* Cor da "polegar" da scrollbar */
+    border-radius: 10px; /* Bordas arredondadas do "polegar" */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #007bff; /* Cor da "polegar" da scrollbar ao passar o mouse */
+}
+
+
 #backToTopBtn {
     display: none;
     position: fixed;
@@ -117,6 +137,11 @@ body::-webkit-scrollbar {
 /* ESTILO CA CABEÇALHO */
 header{
     padding: 40px 10%;
+    display: flex;
+}
+
+.menu-desktop{
+    margin: 0 65px 0 500px;
 }
 
 header > .interface{
@@ -172,10 +197,11 @@ header nav ul{
 
 header nav.menu-desktop ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 12px;
 }
 
 /* ESTILO DO MENU MOBILE */
+
 .btn-abrir-menu i{
     display: none;
     color: #1C24F5;
@@ -553,6 +579,7 @@ section.formulario{
     
     /* MENU MOBILE */
 
+    
     .menu-mobile .btn-fechar{
         padding:19px;
     }
@@ -564,6 +591,7 @@ section.formulario{
 
     .btn-abrir-menu i{
         display: block;
+        margin-left: 79px;
     }
 }
 
