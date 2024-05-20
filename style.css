@@ -476,9 +476,18 @@ section.formulario{
     color: #fff;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1100px){
     /* CLASSES GERAIS */
-    
+
+    body{
+        margin: 0;
+        padding: 0 9%;
+    }
+
+    header .logo{   
+        padding-right: 20px;
+    }
+
     section.topo-do-site{
         padding: 20px;
     }
@@ -527,6 +536,10 @@ section.formulario{
     section.especialidades{
         padding: 40px 8%;
     }
+    
+    section.especialidades h2{
+        font-size: 32px;
+    }
 
     /* ESTILO DE SOBRE*/
      section.sobre{
@@ -542,6 +555,7 @@ section.formulario{
 
     .sobre .txt-sobre p{
         line-height: 25px;
+        font-size: 12px;
     }
 
     .btn-social{
@@ -569,30 +583,37 @@ section.formulario{
 
     /* FALE COMIGO */
     
-    section.formulario{
+    body section.formulario{
         padding: 20px;
     }
 
     section.formulario h2{
-
-        font-size: 40px;
+        font-size: 20px;
     }
     
     /* MENU MOBILE */
 
-    
+    .menu-mobile nav{
+        margin-right: 30px;
+    }
+
     .menu-mobile .btn-fechar{
         padding:19px;
     }
 
     .menu-mobile nav ul li a{
-        font-size: 30px;
+        font-size: 20px;
         text-align: top;
     }
 
     .btn-abrir-menu i{
         display: block;
-        margin-left: 79px;
+        margin-left: 20px;
+    }
+
+    /* SCROLL */
+    #backToTopBtn{
+        margin-right: 15px;
     }
 }
 
