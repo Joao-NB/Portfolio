@@ -11,7 +11,7 @@ html{
 }
 
 ::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
+    width: 11px; /* Largura da barra de rolagem */
     height: 8px; /* Altura da barra de rolagem horizontal */
 }
 
@@ -37,7 +37,7 @@ html{
     right: 20px;
     z-index: 99;
     font-size: 20px;
-    background-color: #007bff;
+    background-color: #1C24F5;
     color: white;
     border: none;
     outline: none;
@@ -52,7 +52,7 @@ html{
 }
 
 #backToTopBtn:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 h2.titulos, .fale-comigo{
