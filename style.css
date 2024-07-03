@@ -334,7 +334,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 15px #ffffff77;
+    box-shadow: 0 0 15px #011245;
 }
 
 .especialidades .especialidades-box i{
@@ -349,6 +349,10 @@ section.especialidades .flex{
 
 /* ESTILO DE SOBRE*/
 
+.img-sobre{
+    filter: drop-shadow(1px 1px 20px #08206a);
+}
+
 section.sobre{
     padding: 60px 10%;
 }
@@ -360,8 +364,8 @@ section.sobre{
     padding-right: 20px;
 }
 
-.links a i{
-    font-size: 15px;
+.links a:hover{
+    color: #3b69f3;
 }
 
 section.sobre .flex{
