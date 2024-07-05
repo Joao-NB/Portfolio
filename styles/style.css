@@ -456,6 +456,14 @@ section.portfolio .flex{
     font-weight: 200;
     text-align: center;
     padding: 11px;
+    padding-bottom: 20px;
+}
+
+.overlay-a{
+    margin-top: 55px;
+    font-size: 21px;
+    text-decoration: none;
+    color: #66acf6;
 }
 
 section.formulario{
