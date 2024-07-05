@@ -484,6 +484,7 @@ section.formulario{
     /* CLASSES GERAIS */
 
     body{
+        overflow-x: hidden;
         padding: 0 3%;
     }
     
@@ -519,7 +520,7 @@ section.formulario{
     }
 
     header .logo{
-        margin-right: 70%;
+        margin-right: 50%;
     }
 
     /* TOPO DO SITE */
@@ -617,9 +618,7 @@ section.formulario{
     }
 
     /* SCROLL */
-    #backToTopBtn{
-        margin-right: -3%;
-    }
+    
 }
 
 section.topo-do-site{
