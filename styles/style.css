@@ -444,10 +444,18 @@ section.portfolio .flex{
     color: #fff;
     opacity: 0;
     transition: 1.5s;
+    flex-direction: column;
 }
 
 .overlay:hover{
     opacity: 1;
+}
+
+.overlay-p{
+    font-size: small;
+    font-weight: 200;
+    text-align: center;
+    padding: 11px;
 }
 
 section.formulario{

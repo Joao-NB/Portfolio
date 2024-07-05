@@ -15,19 +15,22 @@
     <!--FAVICON--> 
     <link rel="shortcut icon" href="images/favicon-guiprofile.ico" type="image/x-icon">
     <!--FIM DO FAVICON-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="reveal.js" defer></script>
+    
+    <script src="scripts/reveal.js" defer></script>
 
-    <script src="menu.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+
+    <script src="scripts/script.js"></script>
 
     <title>GuiProfile</title>
 </head>
 <body>
     <button id="backToTopBtn"><i class="bi bi-arrow-up-circle"></i></i>
     </button>
-    <script src="script.js"></script>
+    
     <header>
         <div class="interface">
             <div class="logo"><!--logo-->
@@ -162,9 +165,14 @@
             <div class="interface">
                 <h2 class="titulos efeito-titulos">Meu <span>Portfólio</span></h2>
                 <div class="flex">
-                    <div class="img-port efeito-img-port1" style="background-image: url(images/Construtor.png);">
-                        <div class="overlay">Em produção</div>
-                    </div>
+                    <a href="https://232burguer.vercel.app/" target="_blank">
+                        <div class="img-port efeito-img-port1" style="background-image: url(images/232-Burguer.png);">
+                            <div class="overlay">
+                                <p>Cardápio</p>
+                                <p class="overlay-p">Um cardápio desenvolvido para uma hambúrgueria utilizando Tailwind CSS para o design frontend e Node.js para o backend, com scripts em JavaScript que utilizam uma API do WhatsApp para enviar pedidos diretamente para o restaurante, garantindo uma integração eficiente e direta com os clientes.</p>
+                            </div>
+                        </div>
+                    </a>
                     <div class="img-port efeito-img-port2" style="background-image: url(images/Farmacy-London.png);">
                         <div class="overlay">Em produção</div>
                     </div>
