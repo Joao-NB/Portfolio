@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
   
 /* ESTILO CA CABEÇALHO */
 header{
-    padding: 35px 10%;
+    padding: 35px 12%;
     display: flex;
 }
 
@@ -479,148 +479,160 @@ section.formulario{
     text-decoration: none;
     color: #fff;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 @media screen and (max-width: 1020px){
     /* CLASSES GERAIS */
 
-    body{
+    body {
         padding: 0 3%;
+        overflow-x: hidden;
     }
     
-    header{
+    header {
         padding: 5%;
     }
 
-    .interface{
+    .interface {
         margin: 0;
     }
 
-    section.topo-do-site h1{
+    section.topo-do-site h1 {
         text-align: left; 
         font-size: 35px;
     }
 
-    h2.titulos{
+    h2.titulos {
         font-size: 40px;
         line-height: 41px;
     }
 
-    .flex{
+    .flex {
         flex-direction: column;
     }
 
-    .topo-do-site .flex{ 
+    .topo-do-site .flex { 
         flex-direction: column-reverse;
     }
 
     /* CABEÇALHO */
-    .menu-desktop, .btn-contato{
+    .menu-desktop, .btn-contato {
         display: none;
     }
 
-    header .logo{
+    header .logo {
         margin-right: 70%;
     }
 
     /* TOPO DO SITE */
 
-    section.topo-do-site h1{
+    section.topo-do-site h1 {
         font-size: 300%;
     }
 
     /* ESTILO DAS ESPECIALIDADE */
-    section.especialidades{
+    section.especialidades {
         padding: 20% 10%;
     }
     
-    section.especialidades h2{
+    section.especialidades h2 {
         text-align: center;
         font-size: 230%;
     }
 
-    /* ESTILO DE SOBRE*/
-     section.sobre{
+    /* ESTILO DE SOBRE */
+    section.sobre {
         padding: 35% 11%;
     }
 
-    .sobre .txt-sobre h2{
+    .sobre .txt-sobre h2 {
         margin-bottom: 30px;
         font-size: 34px;
         line-height: 35px;
         text-align: center;
     }
 
-    .sobre .txt-sobre p{
+    .sobre .txt-sobre p {
         line-height: 25px;
         font-size: 100%;
     }
 
-    .sobre .txt-sobre a{
+    .sobre .txt-sobre a {
         font-size: 112%;
     }
 
-    .sobre .txt-sobre .links{
+    .sobre .txt-sobre .links {
         margin-top: 10%;
     }
 
-    .btn-social{
+    .btn-social {
         text-align: center;
     }
 
-    .img-sobre img{
+    .img-sobre img {
         width: 100%;
     }
 
     /* PORTFÓLIO */
-    section.portfolio{
+    section.portfolio {
         padding: 80px 8%;
     } 
 
-    .img-port{
+    .img-port {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    section.portfolio .flex{
+    section.portfolio .flex {
         gap: 60px;
     }    
 
     /* FALE COMIGO */
     
-    body section.formulario{
+    body section.formulario {
         padding: 50% 10%;
     }
 
-    section.formulario h2{
+    section.formulario h2 {
         font-size: 20px;
     }
     
     /* MENU MOBILE */
 
-    .menu-mobile nav{
+    .menu-mobile nav {
         margin-right: -2%;
     }
 
-    .menu-mobile .btn-fechar{
+    .menu-mobile .btn-fechar {
         padding: 4% 5%;
     }
 
-    .menu-mobile nav ul li a{
+    .menu-mobile nav ul li a {
         font-size: 140%;
         text-align: top;
     }
 
-    .btn-abrir-menu i{
+    .btn-abrir-menu i {
         display: block;
         align-items: end;
     }
 
     /* SCROLL */
-    #backToTopBtn{
+    #backToTopBtn {
         margin-right: -3%;
     }
 }
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
 
 section.topo-do-site{
     padding: 90px;
