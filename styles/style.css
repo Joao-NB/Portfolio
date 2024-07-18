@@ -501,20 +501,31 @@ section.formulario{
 
     body{
         overflow-x: hidden;
-        padding: 0 3%;
+        padding: 0;
+        margin: 0;
     }
+
     
     header{
-        padding: 5%;
+        display: flex;
+        padding: 3%;
+        align-items: center;
     }
 
     .interface{
         margin: 0;
     }
 
+    main{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
     section.topo-do-site h1{
         text-align: left; 
-        font-size: 35px;
+        font-size: 270%;
     }
 
     h2.titulos{
@@ -536,13 +547,7 @@ section.formulario{
     }
 
     header .logo{
-        margin-right: 50%;
-    }
-
-    /* TOPO DO SITE */
-
-    section.topo-do-site h1{
-        font-size: 300%;
+        margin-right: 80%;
     }
 
     /* ESTILO DAS ESPECIALIDADE */
