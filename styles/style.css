@@ -508,7 +508,7 @@ section.formulario{
     
     header{
         display: flex;
-        padding: 3%;
+        padding: 0;
         align-items: center;
     }
 
@@ -525,7 +525,7 @@ section.formulario{
 
     section.topo-do-site h1{
         text-align: left; 
-        font-size: 270%;
+        font-size: 190%;
     }
 
     h2.titulos{
