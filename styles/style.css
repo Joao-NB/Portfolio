@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
 
 .btn-contato{
     display: flex;
-    justify-content: end;
+   
 }
 
 .btn-contato-button {
@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
   
 /* ESTILO CA CABEÇALHO */
 header{
-    padding: 35px 12%;
+    padding: 35px;
     display: flex;
 }
 
@@ -280,15 +280,9 @@ section.topo-do-site .flex{
 
 .topo-do-site h1{
     padding-bottom: 30px;
-    color: rgb(125, 124, 124);
-    font-size: 42px;
-    line-height: 51px;
-    font-weight: 200;
-    text-align: end;
-}
-
-.topo-do-site h1 span{
     color: #fff;
+    font-size: 60px;
+    line-height: 51px;
     font-weight: 500;
 }
 
@@ -835,7 +829,7 @@ section.topo-do-site .flex{
 
   .topo-do-site {
     position: relative;
-    min-height: 77vh;
+    min-height: 75vh;
 }
 
 .marquee {
@@ -843,7 +837,7 @@ section.topo-do-site .flex{
     overflow: hidden;
     background-color: #1C24F5; /* Cor de fundo da barra */
     color: #fff; /* Cor do texto */
-    padding: 10px 0;
+    padding: 12px 0;
     position: absolute;
     bottom: 0;
     left: 0;
