@@ -108,10 +108,10 @@ body::-webkit-scrollbar {
     cursor: pointer;
     box-sizing: border-box;
     width: 154px;
-    height: 49px;
+    height: 45px;
     color: #fff;
     border: none;
-    font-size: 14px;
+    font-size: 12px;
     transition: all 0.3s ease-in-out;
     z-index: 1;
     overflow: hidden;
@@ -829,3 +829,48 @@ section.topo-do-site .flex{
       transform: translate(100%, 100%);
     }
   }
+
+
+
+
+  .topo-do-site {
+    position: relative;
+    min-height: 77vh;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background-color: #1C24F5; /* Cor de fundo da barra */
+    color: #fff; /* Cor do texto */
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.marquee span{
+    font-size: 13px;
+}
+
+.marquee-content {
+    display: inline-block; /* Exibe as mensagens em linha para o efeito de rolagem */
+    white-space: nowrap; /* Impede que as mensagens quebrem para a próxima linha */
+    animation: marquee 90s linear infinite; /* Animação de rolagem contínua */
+}
+
+.marquee-content span {
+    display: inline-block;
+    padding-right: 20px; /* Espaço entre as mensagens */
+    animation: slide-in 1s linear; /* Animação para trazer as mensagens */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
