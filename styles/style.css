@@ -343,9 +343,22 @@ section.especialidades .flex{
 
 /* ESTILO DE SOBRE*/
 
-.img-sobre{
+.sobre .interface .img-sobre img{
     filter: drop-shadow(1px 1px 20px #08206a);
+    padding: relative;
+    animation: flutuar 2s ease-in-out infinite alternate; 
 }
+
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        bottom: 30px;
+    }
+}
+
+
 
 section.sobre{
     padding: 60px 10%;
